@@ -60,7 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Attractor.cs" />
+    <Compile Include="Assets\Scripts\GameplayManager.cs" />
+    <Compile Include="Assets\Scripts\MonoSingleton.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Projects/DontSleep/DontSleep/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
