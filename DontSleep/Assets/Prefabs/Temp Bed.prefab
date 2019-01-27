@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8414184965500572935}
   - component: {fileID: 321873778}
   - component: {fileID: 321873777}
+  - component: {fileID: 294903764}
   m_Layer: 0
   m_Name: Temp Bed
   m_TagString: Untagged
@@ -123,3 +124,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravityStrenght: 1
   rb: {fileID: 321873778}
+--- !u!114 &294903764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414184965500572934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b894db930890fb1419fbdd398d9e9dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growingSpeed: 0.05
