@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 689ac18496bd0dc4987e4da2bd10755c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bed
+    100002: Bed_Pillow_001
+    100004: Bookshelf
+    100006: Comp_Keyboard
+    100008: Comp_Mouse
+    100010: Comp_Screen
+    100012: Comp_table
+    100014: Cow
+    100016: Cow_001
+    100018: Cube
+    100020: Cube_001
+    100022: //RootNode
+    100024: Kitchen_Cabinet
+    100026: Kitchen_Oven
+    100028: Kitchen_Refrigirator
+    100030: Room
+    100032: Window
+    400000: Bed
+    400002: Bed_Pillow_001
+    400004: Bookshelf
+    400006: Comp_Keyboard
+    400008: Comp_Mouse
+    400010: Comp_Screen
+    400012: Comp_table
+    400014: Cow
+    400016: Cow_001
+    400018: Cube
+    400020: Cube_001
+    400022: //RootNode
+    400024: Kitchen_Cabinet
+    400026: Kitchen_Oven
+    400028: Kitchen_Refrigirator
+    400030: Room
+    400032: Window
+    2100000: unnamed
+    2100002: Cow
+    2100004: Cow_Second_Color
+    2100006: Cow_Ears
+    2100008: Cow_Horns
+    2100010: Material_019
+    2100012: Material_012
+    2100014: Material_013
+    2100016: Material_014
+    2100018: Material_011
+    2100020: Material_010
+    2100022: Material_008
+    2100024: Material_009
+    2100026: Material
+    2100028: Material_007
+    2100030: Material_006
+    2100032: Material_004
+    2100034: Material_005
+    2100036: Material_003
+    2100038: White_Bed
+    2100040: Wood_Bed
+    2100042: Material_002
+    2100044: Material_001
+    2100046: Material_018
+    2300000: Bed
+    2300002: Bed_Pillow_001
+    2300004: Bookshelf
+    2300006: Comp_Keyboard
+    2300008: Comp_Mouse
+    2300010: Comp_Screen
+    2300012: Comp_table
+    2300014: Cow
+    2300016: Cow_001
+    2300018: Cube
+    2300020: Cube_001
+    2300022: Kitchen_Cabinet
+    2300024: Kitchen_Oven
+    2300026: Kitchen_Refrigirator
+    2300028: Room
+    2300030: Window
+    3300000: Bed
+    3300002: Bed_Pillow_001
+    3300004: Bookshelf
+    3300006: Comp_Keyboard
+    3300008: Comp_Mouse
+    3300010: Comp_Screen
+    3300012: Comp_table
+    3300014: Cow
+    3300016: Cow_001
+    3300018: Cube
+    3300020: Cube_001
+    3300022: Kitchen_Cabinet
+    3300024: Kitchen_Oven
+    3300026: Kitchen_Refrigirator
+    3300028: Room
+    3300030: Window
+    4300000: Cow_001
+    4300002: Cow
+    4300004: Cube_001
+    4300006: Bookshelf
+    4300008: Kitchen_Cabinet
+    4300010: Window
+    4300012: Kitchen_Refrigirator
+    4300014: Comp_Mouse
+    4300016: Comp_Keyboard
+    4300018: Comp_table
+    4300020: Comp_Screen
+    4300022: Cube
+    4300024: Bed_Pillow_001
+    4300026: Bed
+    4300028: Room
+    4300030: Kitchen_Oven
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
