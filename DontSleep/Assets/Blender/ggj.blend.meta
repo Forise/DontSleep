@@ -20,6 +20,18 @@ ModelImporter:
     100028: Kitchen_Refrigirator
     100030: Room
     100032: Window
+    100034: Aquarium
+    100036: Book
+    100038: Couch
+    100040: Cow_Carcass_Backup
+    100042: Kitchen_Chimney
+    100044: Kitchen_Coffee_Cup
+    100046: Kitchen_Coffee_Machine
+    100048: Kitchen_Paper_Cup
+    100050: Painting
+    100052: Plant
+    100054: PS360
+    100056: Sink
     400000: Bed
     400002: Bed_Pillow_001
     400004: Bookshelf
@@ -37,6 +49,18 @@ ModelImporter:
     400028: Kitchen_Refrigirator
     400030: Room
     400032: Window
+    400034: Aquarium
+    400036: Book
+    400038: Couch
+    400040: Cow_Carcass_Backup
+    400042: Kitchen_Chimney
+    400044: Kitchen_Coffee_Cup
+    400046: Kitchen_Coffee_Machine
+    400048: Kitchen_Paper_Cup
+    400050: Painting
+    400052: Plant
+    400054: PS360
+    400056: Sink
     2100000: unnamed
     2100002: Cow
     2100004: Cow_Second_Color
@@ -61,6 +85,31 @@ ModelImporter:
     2100042: Material_002
     2100044: Material_001
     2100046: Material_018
+    2100048: Material_042
+    2100050: Material_040
+    2100052: Material_041
+    2100054: Material_035
+    2100056: Material_038
+    2100058: Material_036
+    2100060: Material_037
+    2100062: Material_039
+    2100064: Material_034
+    2100066: Material_033
+    2100068: Material_032
+    2100070: Material_030
+    2100072: Material_031
+    2100074: Material_029
+    2100076: Material_027
+    2100078: Material_028
+    2100080: Material_025
+    2100082: Material_026
+    2100084: Material_024
+    2100086: Material_020
+    2100088: Material_021
+    2100090: Material_022
+    2100092: Material_017
+    2100094: Material_023
+    2100096: Material_016
     2300000: Bed
     2300002: Bed_Pillow_001
     2300004: Bookshelf
@@ -77,6 +126,18 @@ ModelImporter:
     2300026: Kitchen_Refrigirator
     2300028: Room
     2300030: Window
+    2300032: Aquarium
+    2300034: Book
+    2300036: Couch
+    2300038: Cow_Carcass_Backup
+    2300040: Kitchen_Chimney
+    2300042: Kitchen_Coffee_Cup
+    2300044: Kitchen_Coffee_Machine
+    2300046: Kitchen_Paper_Cup
+    2300048: Painting
+    2300050: Plant
+    2300052: PS360
+    2300054: Sink
     3300000: Bed
     3300002: Bed_Pillow_001
     3300004: Bookshelf
@@ -93,6 +154,18 @@ ModelImporter:
     3300026: Kitchen_Refrigirator
     3300028: Room
     3300030: Window
+    3300032: Aquarium
+    3300034: Book
+    3300036: Couch
+    3300038: Cow_Carcass_Backup
+    3300040: Kitchen_Chimney
+    3300042: Kitchen_Coffee_Cup
+    3300044: Kitchen_Coffee_Machine
+    3300046: Kitchen_Paper_Cup
+    3300048: Painting
+    3300050: Plant
+    3300052: PS360
+    3300054: Sink
     4300000: Cow_001
     4300002: Cow
     4300004: Cube_001
@@ -109,6 +182,18 @@ ModelImporter:
     4300026: Bed
     4300028: Room
     4300030: Kitchen_Oven
+    4300032: Sink
+    4300034: Painting
+    4300036: Aquarium
+    4300038: Book
+    4300040: PS360
+    4300042: Kitchen_Coffee_Cup
+    4300044: Kitchen_Paper_Cup
+    4300046: Kitchen_Coffee_Machine
+    4300048: Kitchen_Chimney
+    4300050: Plant
+    4300052: Couch
+    4300054: Cow_Carcass_Backup
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs

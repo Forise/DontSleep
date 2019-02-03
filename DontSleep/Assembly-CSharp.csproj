@@ -67,8 +67,11 @@
     <Compile Include="Assets\Scripts\GamePlay\GameplayManager.cs" />
     <Compile Include="Assets\Scripts\GamePlay\PlayerController.cs" />
     <Compile Include="Assets\Scripts\GamePlay\QuestObject.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\Timer.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IInteractable.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IQuest.cs" />
+    <Compile Include="Assets\Scripts\UI\UIHUD.cs" />
+    <Compile Include="Assets\Scripts\UI\UIQuest.cs" />
     <Reference Include="Unity.ProGrids">
       <HintPath>C:/Projects/DontSleep/DontSleep/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
