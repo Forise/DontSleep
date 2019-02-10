@@ -22,6 +22,6 @@ public class UIHUD : MonoBehaviour
 
     void UpdateTime()
     {
-        timeText.text = ((int)Timer.Instance.time / 1000).ToString();
+        timeText.text = ((int)Timer.Instance.time % 60).ToString();
     }
 }

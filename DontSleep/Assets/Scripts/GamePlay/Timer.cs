@@ -7,6 +7,6 @@ public class Timer : MonoSingleton<Timer>
     // Update is called once per frame
     void Update()
     {
-        time += Time.unscaledTime;
+        time += Time.deltaTime;
     }
 }

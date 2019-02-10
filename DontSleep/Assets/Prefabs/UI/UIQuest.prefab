@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 4492514356189124173}
   - component: {fileID: 4492514356189124172}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: ProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +110,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 4492514357382750137}
   m_HandleRect: {fileID: 0}
@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 4492514356888461195}
   - component: {fileID: 4492514356888461197}
   - component: {fileID: 4492514356888461194}
+  - component: {fileID: 8195057907243515352}
   m_Layer: 5
   m_Name: UIQuest
   m_TagString: Untagged
@@ -312,10 +313,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: 0}
-  m_SizeDelta: {x: 0, y: 102}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 188.8, y: 102}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4492514356888461197
 CanvasRenderer:
@@ -354,6 +355,21 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &8195057907243515352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4492514356888461192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad8be71e98d24543ba9066df0dcb8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 4492514356709195224}
+  descriptionText: {fileID: 4492514357329057767}
+  progressBar: {fileID: 4492514356189124172}
 --- !u!1 &4492514357329057765
 GameObject:
   m_ObjectHideFlags: 0
