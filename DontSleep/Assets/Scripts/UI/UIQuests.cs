@@ -5,12 +5,17 @@ using UnityEngine;
 public class UIQuests : MonoBehaviour
 {
     public UIQuest uiQuestPrefab;
-    public List<QuestLevel> levels = new List<QuestLevel>();
     private List<Quest> quests = new List<Quest>();
 
     private void Start()
     {
-        ReadQuests(1);
+        GameplayManager.Instance.StartLevelEvent += InitLevel;
+    }
+
+    private void InitLevel(int i)
+    {
+        ClearQuests();
+        SetQuests(GameplayManager.Instance.Levels[i]);
         GenerateQuests();
     }
 
@@ -20,15 +25,24 @@ public class UIQuests : MonoBehaviour
         {
             var newQuest = Instantiate(uiQuestPrefab, transform);
             (newQuest.transform as RectTransform).localPosition = new Vector2((newQuest.transform as RectTransform).localPosition.x, -(newQuest.transform as RectTransform).rect.height * i);
-            newQuest.nameText.text = quests[i].title;
-            newQuest.descriptionText.text = quests[i].description;
+            newQuest.SetName(quests[i].title);
+            newQuest.SetDescription(quests[i].description);
             newQuest.progressBar.maxValue = quests[i].target;
             newQuest.progressBar.value = quests[i].progress;
+            newQuest.quest = GameplayManager.Instance.QuestObjects.Find(x => x.Name == quests[i].title);
         }
     }
 
-    public void ReadQuests(int level)
+    private void ClearQuests()
     {
-        quests = levels[level - 1].quests;
+        foreach(var q in GetComponentsInChildren<UIQuest>())
+        {
+            Destroy(q.gameObject);
+        }
+    }
+
+    public void SetQuests(QuestLevel questLevel)
+    {
+        quests = questLevel.quests;
     }
 }

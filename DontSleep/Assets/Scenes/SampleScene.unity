@@ -515,8 +515,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiQuestPrefab: {fileID: 8195057907243515352, guid: 8e68149938a2fce46ab1d18d8f4c6d08,
     type: 3}
-  levels:
-  - {fileID: 11400000, guid: ce62029c8537608498e179a939d731f2, type: 2}
 --- !u!1 &1411727310
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +615,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameMod: 0
+  levels:
+  - {fileID: 11400000, guid: 55a70696a52f10447af054af1ad85faa, type: 2}
+  questObjects:
+  - {fileID: 1799577229}
 --- !u!4 &1632685639
 Transform:
   m_ObjectHideFlags: 0
@@ -644,6 +646,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0
+--- !u!114 &1799577229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8249462541352467595, guid: 3eb673dee172d4c4280687d8695d6fc5,
+    type: 3}
+  m_PrefabInstance: {fileID: 8782626964271238871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3fe3b347985934ca0234f86ea46b6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1814106699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1273,6 +1287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.014640205
+      objectReference: {fileID: 0}
+    - target: {fileID: 8249462541352467594, guid: 3eb673dee172d4c4280687d8695d6fc5,
+        type: 3}
+      propertyPath: m_Name
+      value: Comp_table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3eb673dee172d4c4280687d8695d6fc5, type: 3}

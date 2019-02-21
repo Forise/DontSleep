@@ -4,19 +4,43 @@ using UnityEngine;
 
 public class GameplayManager : MonoSingleton<GameplayManager>
 {
-    public GameMod gameMod;
+    public delegate void StartLevelDelegate(int level);
+    public event StartLevelDelegate StartLevelEvent;
 
-    // Start is called before the first frame update
+    public delegate void EndLevelDelegate(int level);
+    public event EndLevelDelegate EndLevel;
+
+    public GameMod gameMod;
+    [SerializeField]
+    private List<QuestLevel> levels = new List<QuestLevel>();
+    [SerializeField]
+    private List<QuestObject> questObjects = new List<QuestObject>();
+    private int currentLevel = 0;
+
+    public List<QuestLevel> Levels
+    {
+        get => levels;
+    }
+
+    public List<QuestObject> QuestObjects
+    {
+        get => questObjects;
+    }
+
     void Start()
     {
-        
+        StartLevel(currentLevel);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void StartLevel(int index)
     {
-        
+        foreach(var q in questObjects)
+        {
+            q.SetQuest(levels[currentLevel].quests.Find(x => x.title == q.gameObject.name));
+        }
+        StartLevelEvent(currentLevel);
     }
+    //TODO: Add EndLevel
 }
 
 public enum GameMod

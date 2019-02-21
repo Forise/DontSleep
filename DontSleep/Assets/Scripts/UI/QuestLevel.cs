@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Quests", menuName = "UI/Quests"), System.Serializable]
+[CreateAssetMenu(fileName = "Quests", menuName = "/Quests"), System.Serializable]
 public class QuestLevel : ScriptableObject
 {
     [SerializeField]
